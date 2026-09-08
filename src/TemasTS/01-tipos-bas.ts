@@ -11,3 +11,9 @@ let activo:boolean
 
 let suma:number=num1+num2+num3
 console.log('La suma es:'+ suma)
+
+let matricula: number | string
+
+matricula=22002333
+matricula="22002333Limon"
+console.log(matricula)
